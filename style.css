@@ -114,3 +114,29 @@ button {
     left: 60%;
     transform: translate(-50%, -50%);
 }
+.new-game {
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 93%;
+    left: 11%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(112, 234, 228);
+    color: black;
+    font-size: 41px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px 30px 11px 30px;
+}
+.new-game:hover {
+    background-color: rgb(227, 230, 24);
+    color: white;
+}
+.loading {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
