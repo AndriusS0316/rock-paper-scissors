@@ -88,7 +88,6 @@ button {
     color: black;
 }
 .rezultatas {
-    cursor: pointer;
     display: flex;
     gap: 20px;
     position: absolute;
@@ -139,4 +138,66 @@ button {
     top: 39%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.scorePC {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 27%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 40px;
+}
+.scoreYour {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 27%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 40px;
+}
+.pcNumber {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 37%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 40px;
+}
+.yourNumber {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 37%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 40px;
+}
+.draw {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 77%;
+    left: 93%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px 30px 11px 30px;
+}
+.drawNumber {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 87%;
+    left: 93%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px 30px 11px 30px;
 }
