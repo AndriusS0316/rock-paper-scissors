@@ -11,7 +11,7 @@ form {
     transform: translate(-50%, -50%);
 }
 button {
-    padding: 15px 40px;
+    padding: 9px 45px 12px 45px;
     font-size: 50px;
     line-height: 30px;
     border: none;
@@ -19,56 +19,98 @@ button {
     cursor: pointer;
     box-shadow: 0 8px 10px #0002;
 }
-.change {
+.rock {
     cursor: pointer;
     display: flex;
     gap: 20px;
     position: absolute;
-    top: 43%;
-    left: 50%;
+    top: 81%;
+    left: 31%;
     transform: translate(-50%, -50%);
-    background-color: orange;
+    background-color: rgb(234,112,156);
     color: #fff;
+    font-size: 47px;
+    font-family: 'Times New Roman', Times, serif;
 }
-.change:hover {
-    background-color: yellowgreen;
+.rock:hover {
+    background-color: rgb(230, 147, 24);
     color: black;
 }
-.number {
+.paper {
     cursor: pointer;
     display: flex;
     gap: 20px;
     position: absolute;
-    top: 55%;
+    top: 81%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: green;
+    background-color: rgb(234,112,156);
     color: #fff;
+    font-size: 47px;
+    font-family: 'Times New Roman', Times, serif;
 }
-.number:hover {
-    background-color: rgb(79,235,222);
+.paper:hover {
+    background-color: rgb(230, 147, 24);
     color: black;
 }
-.number {
-    padding: 10px 30px;
+.scissors {
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 81%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(234,112,156);
+    color: #fff;
+    font-size: 47px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.scissors:hover {
+    background-color: rgb(230, 147, 24);
+    color: black;
+}
+.random {
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(234,112,156);
+    color: #fff;
+    font-size: 47px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.random:hover {
+    background-color: rgb(230, 147, 24);
+    color: black;
+}
+.rezultatas {
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
     font-size: 50px;
-    line-height: 30px;
 }
-
-.skaicius {
+.pc {
     display: flex;
     gap: 20px;
     position: absolute;
-    top: 30%;
-    left: 50%;
+    top: 20%;
+    left: 40%;
     transform: translate(-50%, -50%);
-    font-size: 70px;
-    
 }
-#history {
-    height: 50%;
-    width: 70%;
-}
-::placeholder {
-    font-size: 25px;
+.you {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    transform: translate(-50%, -50%);
 }
