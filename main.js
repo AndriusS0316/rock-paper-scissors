@@ -39,7 +39,7 @@ var imgPC = document.querySelector(".pc");
 var imgYOU = document.querySelector(".you");
 
 
-pcNumber.InnerText = 
+// pcNumber.InnerText = 
 
 
 function rockClick() {
@@ -311,6 +311,7 @@ function randomClick() {
             rezultatas.innerText = "draw";
             drawNumberr = drawNumberr + 1; 
             drawNumber.InnerText = drawNumberr;
+            console.log("draw");
         }
 
         { document.querySelector(".pc").style.display = "block"; }
