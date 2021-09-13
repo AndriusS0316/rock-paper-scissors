@@ -2,9 +2,9 @@
 let pc = 0;
 let randomm = 0;
 
-let pcNumberr = 0;      // pcNumberr = pcNumberr + 1; pcNumber.InnerText = pcNumberr;
-let yourNumberr = 0;    // yourNumberr = yourNumberr + 1; yourNumber.InnerText = yourNumberr;
-let drawNumberr = 0;    // drawNumberr = drawNumberr + 1; drawNumber.InnerText = drawNumberr;
+let pcNumberr = 0;      // pcNumberr = pcNumberr + 1; pcNumber.innerText = pcNumberr;
+let yourNumberr = 0;    // yourNumberr = yourNumberr + 1; yourNumber.innerText = yourNumberr;
+let drawNumberr = 0;    // drawNumberr = drawNumberr + 1; drawNumber.innerText = drawNumberr;
 
 
 // 1 - rock; 2 - paper; 3 - scissors
@@ -24,9 +24,9 @@ const drawNumber = document.querySelector('.drawNumber');
 
 
 
-pcNumber.InnerText = pcNumberr; 
-yourNumber.InnerText = yourNumberr; 
-drawNumber.InnerText = drawNumberr; 
+pcNumber.innerText = pcNumberr; 
+yourNumber.innerText = yourNumberr; 
+drawNumber.innerText = drawNumberr; 
 
 
 { document.querySelector(".pc").style.display = "none"; }
@@ -82,22 +82,40 @@ function rockClick() {
 
         if (pc === 1 && randomm === 1) {
             rezultatas.innerText = "draw";
+            drawNumberr = drawNumberr + 1; 
+            drawNumber.innerText = drawNumberr;
         } else if (pc === 1 && randomm === 2) {
             rezultatas.innerText = "you win";
+            yourNumberr = yourNumberr + 1; 
+            yourNumber.innerText = yourNumberr;
         } else if (pc === 1 && randomm === 3) {
             rezultatas.innerText = "pc win";
+            pcNumberr = pcNumberr + 1; 
+            pcNumber.innerText = pcNumberr;
         } else if (pc === 2 && randomm === 1) {
             rezultatas.innerText = "pc win";
+            pcNumberr = pcNumberr + 1; 
+            pcNumber.innerText = pcNumberr;
         } else if (pc === 2 && randomm === 2) {
             rezultatas.innerText = "draw";
+            drawNumberr = drawNumberr + 1; 
+            drawNumber.innerText = drawNumberr;
         } else if (pc === 2 && randomm === 3) {
             rezultatas.innerText = "you win";
+            yourNumberr = yourNumberr + 1; 
+            yourNumber.innerText = yourNumberr;
         } else if (pc === 3 && randomm === 1) {
             rezultatas.innerText = "you win";
+            yourNumberr = yourNumberr + 1; 
+            yourNumber.innerText = yourNumberr;
         } else if (pc === 3 && randomm === 2) {
             rezultatas.innerText = "pc win";
+            pcNumberr = pcNumberr + 1; 
+            pcNumber.innerText = pcNumberr;
         } else if (pc === 3 && randomm === 3) {
             rezultatas.innerText = "draw";
+            drawNumberr = drawNumberr + 1; 
+            drawNumber.innerText = drawNumberr;
         }
 
         { document.querySelector(".pc").style.display = "block"; }
@@ -147,22 +165,40 @@ function paperClick() {
 
         if (pc === 1 && randomm === 1) {
             rezultatas.innerText = "draw";
+            drawNumberr = drawNumberr + 1; 
+            drawNumber.innerText = drawNumberr;
         } else if (pc === 1 && randomm === 2) {
             rezultatas.innerText = "you win";
+            yourNumberr = yourNumberr + 1; 
+            yourNumber.innerText = yourNumberr;
         } else if (pc === 1 && randomm === 3) {
             rezultatas.innerText = "pc win";
+            pcNumberr = pcNumberr + 1; 
+            pcNumber.innerText = pcNumberr;
         } else if (pc === 2 && randomm === 1) {
             rezultatas.innerText = "pc win";
+            pcNumberr = pcNumberr + 1; 
+            pcNumber.innerText = pcNumberr;
         } else if (pc === 2 && randomm === 2) {
             rezultatas.innerText = "draw";
+            drawNumberr = drawNumberr + 1; 
+            drawNumber.innerText = drawNumberr;
         } else if (pc === 2 && randomm === 3) {
             rezultatas.innerText = "you win";
+            yourNumberr = yourNumberr + 1; 
+            yourNumber.innerText = yourNumberr;
         } else if (pc === 3 && randomm === 1) {
             rezultatas.innerText = "you win";
+            yourNumberr = yourNumberr + 1; 
+            yourNumber.innerText = yourNumberr;
         } else if (pc === 3 && randomm === 2) {
             rezultatas.innerText = "pc win";
+            pcNumberr = pcNumberr + 1; 
+            pcNumber.innerText = pcNumberr;
         } else if (pc === 3 && randomm === 3) {
             rezultatas.innerText = "draw";
+            drawNumberr = drawNumberr + 1; 
+            drawNumber.innerText = drawNumberr;
         }
 
         { document.querySelector(".pc").style.display = "block"; }
@@ -212,22 +248,40 @@ function scissorsClick() {
 
         if (pc === 1 && randomm === 1) {
             rezultatas.innerText = "draw";
+            drawNumberr = drawNumberr + 1; 
+            drawNumber.innerText = drawNumberr;
         } else if (pc === 1 && randomm === 2) {
             rezultatas.innerText = "you win";
+            yourNumberr = yourNumberr + 1; 
+            yourNumber.innerText = yourNumberr;
         } else if (pc === 1 && randomm === 3) {
             rezultatas.innerText = "pc win";
+            pcNumberr = pcNumberr + 1; 
+            pcNumber.innerText = pcNumberr;
         } else if (pc === 2 && randomm === 1) {
             rezultatas.innerText = "pc win";
+            pcNumberr = pcNumberr + 1; 
+            pcNumber.innerText = pcNumberr;
         } else if (pc === 2 && randomm === 2) {
             rezultatas.innerText = "draw";
+            drawNumberr = drawNumberr + 1; 
+            drawNumber.innerText = drawNumberr;
         } else if (pc === 2 && randomm === 3) {
             rezultatas.innerText = "you win";
+            yourNumberr = yourNumberr + 1; 
+            yourNumber.innerText = yourNumberr;
         } else if (pc === 3 && randomm === 1) {
             rezultatas.innerText = "you win";
+            yourNumberr = yourNumberr + 1; 
+            yourNumber.innerText = yourNumberr;
         } else if (pc === 3 && randomm === 2) {
             rezultatas.innerText = "pc win";
+            pcNumberr = pcNumberr + 1; 
+            pcNumber.innerText = pcNumberr;
         } else if (pc === 3 && randomm === 3) {
             rezultatas.innerText = "draw";
+            drawNumberr = drawNumberr + 1; 
+            drawNumber.innerText = drawNumberr;
         }
 
         { document.querySelector(".pc").style.display = "block"; }
@@ -278,40 +332,39 @@ function randomClick() {
         if (pc === 1 && randomm === 1) {
             rezultatas.innerText = "draw";
             drawNumberr = drawNumberr + 1; 
-            drawNumber.InnerText = drawNumberr;
+            drawNumber.innerText = drawNumberr;
         } else if (pc === 1 && randomm === 2) {
             rezultatas.innerText = "you win";
             yourNumberr = yourNumberr + 1; 
-            yourNumber.InnerText = yourNumberr;
+            yourNumber.innerText = yourNumberr;
         } else if (pc === 1 && randomm === 3) {
             rezultatas.innerText = "pc win";
             pcNumberr = pcNumberr + 1; 
-            pcNumber.InnerText = pcNumberr;
+            pcNumber.innerText = pcNumberr;
         } else if (pc === 2 && randomm === 1) {
             rezultatas.innerText = "pc win";
             pcNumberr = pcNumberr + 1; 
-            pcNumber.InnerText = pcNumberr;
+            pcNumber.innerText = pcNumberr;
         } else if (pc === 2 && randomm === 2) {
             rezultatas.innerText = "draw";
             drawNumberr = drawNumberr + 1; 
-            drawNumber.InnerText = drawNumberr;
+            drawNumber.innerText = drawNumberr;
         } else if (pc === 2 && randomm === 3) {
             rezultatas.innerText = "you win";
             yourNumberr = yourNumberr + 1; 
-            yourNumber.InnerText = yourNumberr;
+            yourNumber.innerText = yourNumberr;
         } else if (pc === 3 && randomm === 1) {
             rezultatas.innerText = "you win";
             yourNumberr = yourNumberr + 1; 
-            yourNumber.InnerText = yourNumberr;
+            yourNumber.innerText = yourNumberr;
         } else if (pc === 3 && randomm === 2) {
             rezultatas.innerText = "pc win";
             pcNumberr = pcNumberr + 1; 
-            pcNumber.InnerText = pcNumberr;
+            pcNumber.innerText = pcNumberr;
         } else if (pc === 3 && randomm === 3) {
             rezultatas.innerText = "draw";
             drawNumberr = drawNumberr + 1; 
-            drawNumber.InnerText = drawNumberr;
-            console.log("draw");
+            drawNumber.innerText = drawNumberr;
         }
 
         { document.querySelector(".pc").style.display = "block"; }

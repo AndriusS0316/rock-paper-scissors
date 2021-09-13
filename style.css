@@ -180,8 +180,6 @@ button {
     font-size: 40px;
 }
 .draw {
-    display: flex;
-    gap: 20px;
     position: absolute;
     top: 77%;
     left: 93%;
@@ -191,8 +189,6 @@ button {
     padding: 5px 30px 11px 30px;
 }
 .drawNumber {
-    display: flex;
-    gap: 20px;
     position: absolute;
     top: 87%;
     left: 93%;
