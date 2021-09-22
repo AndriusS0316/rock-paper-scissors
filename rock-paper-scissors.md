@@ -1,0 +1,3 @@
+sukurti žaidimuką "akmuo popierius žirklės", pagal tradicines taisykles, kurias manau visi puikiai žinot. Žaidėjas žais prieš kompiuterį ir žaidėjas turi turėti galimybę pasirinkti ką jis pasirinks žaidime, akmenį, popierių ar žirkles. 
+Taip pat padaryti mygtuką, kuris leis pasirinkti atsitiktiniu keliu gauti akmenį, popierių ar žirkles. 
+Įvykus žaidimui, kompiuteris turi pranešti kas laimėjo. Tai yra ar kompiuteris, ar žaidėjas. 
